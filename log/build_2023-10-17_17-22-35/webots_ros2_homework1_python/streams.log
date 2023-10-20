@@ -1,0 +1,26 @@
+[2.432s] Invoking command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework1_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/install.log --single-version-externally-managed
+[3.050s] running egg_info
+[3.052s] writing ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/PKG-INFO
+[3.054s] writing dependency_links to ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/dependency_links.txt
+[3.055s] writing entry points to ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/entry_points.txt
+[3.059s] writing requirements to ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/requires.txt
+[3.060s] writing top-level names to ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/top_level.txt
+[3.064s] reading manifest file '../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/SOURCES.txt'
+[3.067s] writing manifest file '../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/SOURCES.txt'
+[3.067s] running build
+[3.068s] running build_py
+[3.068s] copying webots_ros2_homework1_python/webots_ros2_homework1_python.py -> /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build/lib/webots_ros2_homework1_python
+[3.069s] running install
+[3.069s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.069s]   warnings.warn(
+[3.071s] running install_lib
+[3.073s] copying /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build/lib/webots_ros2_homework1_python/webots_ros2_homework1_python.py -> /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python
+[3.074s] byte-compiling /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python/webots_ros2_homework1_python.py to webots_ros2_homework1_python.cpython-310.pyc
+[3.078s] running install_data
+[3.080s] running install_egg_info
+[3.087s] removing '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python-0.0.0-py3.10.egg-info' (and everything under it)
+[3.090s] Copying ../../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info to /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python-0.0.0-py3.10.egg-info
+[3.094s] running install_scripts
+[3.166s] Installing webots_ros2_homework1_python script to /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/webots_ros2_homework1_python
+[3.167s] writing list of installed files to '/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/install.log'
+[3.383s] Invoked command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python' returned '0': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework1_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/install.log --single-version-externally-managed

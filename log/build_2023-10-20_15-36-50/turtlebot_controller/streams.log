@@ -1,0 +1,23 @@
+[2.353s] Invoking command in '/home/aaronb/f23_robotics_homework2/src/turtlebot_controller': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/turtlebot_controller/prefix_override:/home/aaronb/f23_robotics_homework2/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/aaronb/f23_robotics_homework2/build/turtlebot_controller/build install --record /home/aaronb/f23_robotics_homework2/build/turtlebot_controller/install.log --single-version-externally-managed
+[2.919s] running egg_info
+[2.921s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[2.921s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[2.922s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[2.922s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[2.923s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[2.928s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.930s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.930s] running build
+[2.931s] running build_py
+[2.932s] running install
+[2.932s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.932s]   warnings.warn(
+[2.933s] running install_lib
+[2.936s] running install_data
+[2.938s] running install_egg_info
+[2.942s] removing '/home/aaronb/f23_robotics_homework2/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.943s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /home/aaronb/f23_robotics_homework2/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller-0.0.0-py3.10.egg-info
+[2.945s] running install_scripts
+[3.009s] Installing turtlebot_controller script to /home/aaronb/f23_robotics_homework2/install/turtlebot_controller/lib/turtlebot_controller
+[3.011s] writing list of installed files to '/home/aaronb/f23_robotics_homework2/build/turtlebot_controller/install.log'
+[3.179s] Invoked command in '/home/aaronb/f23_robotics_homework2/src/turtlebot_controller' returned '0': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/turtlebot_controller/prefix_override:/home/aaronb/f23_robotics_homework2/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/aaronb/f23_robotics_homework2/build/turtlebot_controller/build install --record /home/aaronb/f23_robotics_homework2/build/turtlebot_controller/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot_lab_controller = turtlebot_lab_controller.turtlebot_lab_controller:main
+

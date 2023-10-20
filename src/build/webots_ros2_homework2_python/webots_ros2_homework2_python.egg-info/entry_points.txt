@@ -1,0 +1,3 @@
+[console_scripts]
+webots_ros2_controller_python = webots_ros2_homework2_python.my_node:main
+

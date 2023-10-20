@@ -1,0 +1,23 @@
+[2.580s] Invoking command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_controller_python': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework2_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/install.log --single-version-externally-managed
+[3.223s] running egg_info
+[3.229s] writing ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/PKG-INFO
+[3.230s] writing dependency_links to ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/dependency_links.txt
+[3.230s] writing entry points to ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/entry_points.txt
+[3.231s] writing requirements to ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/requires.txt
+[3.231s] writing top-level names to ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/top_level.txt
+[3.232s] reading manifest file '../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/SOURCES.txt'
+[3.236s] writing manifest file '../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info/SOURCES.txt'
+[3.236s] running build
+[3.236s] running build_py
+[3.237s] running install
+[3.237s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.237s]   warnings.warn(
+[3.238s] running install_lib
+[3.242s] running install_data
+[3.243s] running install_egg_info
+[3.249s] removing '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages/webots_ros2_homework2_python-0.0.0-py3.10.egg-info' (and everything under it)
+[3.250s] Copying ../../build/webots_ros2_homework2_python/webots_ros2_homework2_python.egg-info to /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages/webots_ros2_homework2_python-0.0.0-py3.10.egg-info
+[3.253s] running install_scripts
+[3.328s] Installing webots_ros2_controller_python script to /home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/webots_ros2_homework2_python
+[3.329s] writing list of installed files to '/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/install.log'
+[3.414s] Invoked command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_controller_python' returned '0': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework2_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/install.log --single-version-externally-managed

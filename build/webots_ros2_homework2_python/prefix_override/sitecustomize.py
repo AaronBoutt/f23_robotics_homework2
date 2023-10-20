@@ -1,0 +1,3 @@
+import sys
+sys.real_prefix = sys.prefix
+sys.prefix = sys.exec_prefix = '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python'

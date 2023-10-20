@@ -1,0 +1,188 @@
+[4.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd8773c9b10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd8773ca980>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd8773ca980>>)
+[4.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.456s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aaronb/f23_robotics_homework2'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.510s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.510s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.510s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extensions ['ignore', 'ignore_ament_install']
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extension 'ignore'
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extension 'ignore_ament_install'
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extensions ['colcon_pkg']
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extension 'colcon_pkg'
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extensions ['colcon_meta']
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extension 'colcon_meta'
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extensions ['ros']
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework1_python) by extension 'ros'
+[4.525s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_homework1_python' with type 'ros.ament_python' and name 'webots_ros2_homework1_python'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extensions ['ignore', 'ignore_ament_install']
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extension 'ignore'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extension 'ignore_ament_install'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extensions ['colcon_pkg']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extension 'colcon_pkg'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extensions ['colcon_meta']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extension 'colcon_meta'
+[4.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extensions ['ros']
+[4.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_homework2_python) by extension 'ros'
+[4.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_homework2_python' with type 'ros.ament_python' and name 'webots_ros2_homework2_python'
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.062s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/aaronb/f23_robotics_homework2/install
+[5.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/humble
+[5.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_args' from command line to 'None'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_target' from command line to 'None'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_clean_cache' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_clean_first' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'cmake_force_configure' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'ament_cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'catkin_cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework1_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.842s] DEBUG:colcon.colcon_core.verb:Building package 'webots_ros2_homework1_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python', 'merge_install': False, 'path': '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python', 'symlink_install': False, 'test_result_base': None}
+[5.884s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_args' from command line to 'None'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_target' from command line to 'None'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_clean_cache' from command line to 'False'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_clean_first' from command line to 'False'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'cmake_force_configure' from command line to 'False'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'ament_cmake_args' from command line to 'None'
+[5.885s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'catkin_cmake_args' from command line to 'None'
+[5.886s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_homework2_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.886s] DEBUG:colcon.colcon_core.verb:Building package 'webots_ros2_homework2_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python', 'merge_install': False, 'path': '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework2_python', 'symlink_install': False, 'test_result_base': None}
+[5.929s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.018s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python' with build type 'ament_python'
+[6.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_homework1_python', 'ament_prefix_path')
+[6.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/ament_prefix_path.ps1'
+[6.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/ament_prefix_path.dsv'
+[6.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/ament_prefix_path.sh'
+[6.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.444s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework2_python' with build type 'ament_python'
+[6.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_homework2_python', 'ament_prefix_path')
+[6.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/ament_prefix_path.ps1'
+[6.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/ament_prefix_path.dsv'
+[6.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/ament_prefix_path.sh'
+[6.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.943s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python'
+[8.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.193s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework2_python'
+[9.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework2_python': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework2_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/install.log --single-version-externally-managed
+[11.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework1_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/install.log --single-version-externally-managed
+[12.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework2_python' returned '0': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework2_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework2_python/install.log --single-version-externally-managed
+[12.645s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python' for CMake module files
+[12.647s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python' for CMake config files
+[12.649s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib'
+[12.650s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/bin'
+[12.650s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/pkgconfig/webots_ros2_homework2_python.pc'
+[12.651s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/lib/python3.10/site-packages'
+[12.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_homework2_python', 'pythonpath')
+[12.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/pythonpath.ps1'
+[12.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/pythonpath.dsv'
+[12.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/hook/pythonpath.sh'
+[12.751s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/bin'
+[12.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_ros2_homework2_python)
+[12.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/package.ps1'
+[12.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/package.dsv'
+[12.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/package.sh'
+[12.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/package.bash'
+[12.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/webots_ros2_homework2_python/package.zsh'
+[12.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework2_python/share/colcon-core/packages/webots_ros2_homework2_python)
+[12.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaronb/f23_robotics_homework2/src/webots_ros2_homework1_python' returned '0': PYTHONPATH=/home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/prefix_override:/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_homework1_python build --build-base /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/build install --record /home/aaronb/f23_robotics_homework2/build/webots_ros2_homework1_python/install.log --single-version-externally-managed
+[12.882s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python' for CMake module files
+[12.884s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python' for CMake config files
+[12.886s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib'
+[12.886s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/bin'
+[12.887s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/pkgconfig/webots_ros2_homework1_python.pc'
+[12.889s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/lib/python3.10/site-packages'
+[12.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_homework1_python', 'pythonpath')
+[12.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/pythonpath.ps1'
+[12.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/pythonpath.dsv'
+[12.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/hook/pythonpath.sh'
+[12.939s] Level 1:colcon.colcon_core.environment:checking '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/bin'
+[12.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_ros2_homework1_python)
+[12.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/package.ps1'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/package.dsv'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/package.sh'
+[12.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/package.bash'
+[12.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/webots_ros2_homework1_python/package.zsh'
+[13.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaronb/f23_robotics_homework2/install/webots_ros2_homework1_python/share/colcon-core/packages/webots_ros2_homework1_python)
+[13.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.007s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.268s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.268s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[13.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaronb/f23_robotics_homework2/install/local_setup.ps1'
+[13.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaronb/f23_robotics_homework2/install/_local_setup_util_ps1.py'
+[13.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaronb/f23_robotics_homework2/install/setup.ps1'
+[13.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaronb/f23_robotics_homework2/install/local_setup.sh'
+[13.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaronb/f23_robotics_homework2/install/_local_setup_util_sh.py'
+[13.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaronb/f23_robotics_homework2/install/setup.sh'
+[13.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaronb/f23_robotics_homework2/install/local_setup.bash'
+[13.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaronb/f23_robotics_homework2/install/setup.bash'
+[13.563s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaronb/f23_robotics_homework2/install/local_setup.zsh'
+[13.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaronb/f23_robotics_homework2/install/setup.zsh'
